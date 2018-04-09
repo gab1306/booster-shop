@@ -1,0 +1,130 @@
+.navbar {
+  background-color: #101010; }
+  .navbar li a {
+    font-family: 'Fjalla One', sans-serif;
+    color: white !important;
+    font-size: 20px; }
+    .navbar li a:hover {
+      color: #ea5644; }
+  .navbar .navbar-brand {
+    color: white !important;
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif; }
+
+.container.carousel {
+  margin-bottom: 50px; }
+
+.myfooter {
+  padding: 50px 0 20px 0;
+  background-color: #101010;
+  color: #878c94; }
+  .myfooter .title-widget {
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 15px; }
+    .myfooter .title-widget::before {
+      background-color: #ea5644;
+      content: "";
+      height: 22px;
+      left: 0px;
+      position: absolute;
+      top: -2px;
+      width: 5px; }
+  .myfooter .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff; }
+  .myfooter ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D; }
+  .myfooter .payment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; }
+    .myfooter .payment li {
+      list-style-type: none; }
+      .myfooter .payment li a {
+        text-decoration: none;
+        color: #fff;
+        float: left;
+        font-size: 25px;
+        padding: 10px 10px; }
+  .myfooter .myfooter-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .myfooter .myfooter-bottom .payments {
+      font-size: 1.5em; }
+    .myfooter .myfooter-bottom p.pull-left {
+      padding-top: 6px; }
+  .myfooter .title {
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 15px; }
+    .myfooter .title::before {
+      background-color: #ea5644;
+      content: "";
+      height: 22px;
+      left: 0px;
+      position: absolute;
+      top: -2px;
+      width: 5px; }
+  .myfooter .social-icon {
+    padding: 0px;
+    margin: 0px; }
+    .myfooter .social-icon a {
+      display: inline-block;
+      color: #fff;
+      font-size: 25px;
+      padding: 5px; }
+  .myfooter .acount-icon a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none; }
+  .myfooter .acount-icon .fa {
+    margin-right: 25px; }
+  .myfooter .row.text-center.footer {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 15px; }

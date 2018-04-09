@@ -1,0 +1,192 @@
+body {
+  background: url("https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/GLP_Masthead_Desktop_tcm221-244361.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.navbar {
+  background-color: #101010; }
+  .navbar li a {
+    font-family: 'Fjalla One', sans-serif;
+    color: white !important;
+    font-size: 20px; }
+    .navbar li a:hover {
+      color: #ea5644; }
+  .navbar .navbar-brand {
+    color: white !important;
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif; }
+
+header {
+  padding: 50px 0; }
+
+h1 {
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px; }
+
+.container.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.container .thumbex {
+  margin: 10px 20px 30px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 435px;
+  height: 300px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  outline: 2px solid white;
+  outline-offset: -15px;
+  background-color: blue;
+  box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5); }
+  .container .thumbex .thumbnail {
+    overflow: hidden;
+    min-width: 250px;
+    height: 300px;
+    position: relative;
+    opacity: 0.88;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out; }
+    .container .thumbex .thumbnail img {
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      top: 50%;
+      height: 115%;
+      width: auto;
+      transform: translate(-50%, -50%);
+      backface-visibility: hidden; }
+    .container .thumbex .thumbnail span {
+      position: absolute;
+      z-index: 2;
+      top: calc(150px - 20px);
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px 50px;
+      margin: 0 45px;
+      text-align: center;
+      font-size: 24px;
+      color: white;
+      font-weight: 300;
+      font-family: 'Fjalla One', sans-serif;
+      letter-spacing: 0.2px;
+      transition: all 0.3s ease-out; }
+    .container .thumbex .thumbnail:hover {
+      backface-visibility: hidden;
+      transform: scale(1.15, 1.15);
+      opacity: 1; }
+      .container .thumbex .thumbnail:hover span {
+        opacity: 0; }
+
+.myfooter {
+  padding: 50px 0 20px 0;
+  background-color: #101010;
+  color: #878c94; }
+  .myfooter .title-widget {
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 15px; }
+    .myfooter .title-widget::before {
+      background-color: #ea5644;
+      content: "";
+      height: 22px;
+      left: 0px;
+      position: absolute;
+      top: -2px;
+      width: 5px; }
+  .myfooter .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff; }
+  .myfooter ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D; }
+  .myfooter .payment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; }
+    .myfooter .payment li {
+      list-style-type: none; }
+      .myfooter .payment li a {
+        text-decoration: none;
+        color: #fff;
+        float: left;
+        font-size: 25px;
+        padding: 10px 10px; }
+  .myfooter .myfooter-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .myfooter .myfooter-bottom .payments {
+      font-size: 1.5em; }
+    .myfooter .myfooter-bottom p.pull-left {
+      padding-top: 6px; }
+  .myfooter .title {
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 15px; }
+    .myfooter .title::before {
+      background-color: #ea5644;
+      content: "";
+      height: 22px;
+      left: 0px;
+      position: absolute;
+      top: -2px;
+      width: 5px; }
+  .myfooter .social-icon {
+    padding: 0px;
+    margin: 0px; }
+    .myfooter .social-icon a {
+      display: inline-block;
+      color: #fff;
+      font-size: 25px;
+      padding: 5px; }
+  .myfooter .acount-icon a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none; }
+  .myfooter .acount-icon .fa {
+    margin-right: 25px; }
